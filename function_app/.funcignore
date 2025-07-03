@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.gitignore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Azure Functions Core Tools
+bin/
+obj/
+appsettings.json
+local.settings.json
+
+# Development tools and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation and samples
+*.md
+!README.md
+docs/
+samples/
+tests/
+
+# Data science artifacts (separate from function app)
+notebooks/
+data/
+models/
+reports/
+references/
+*.ipynb
+*.csv
+*.xlsx
+*.json

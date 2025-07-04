@@ -60,3 +60,5 @@ references/
 *.csv
 *.xlsx
 *.json
+
+.venv

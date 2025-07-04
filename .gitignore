@@ -65,6 +65,7 @@ target/
 
 # DotEnv configuration
 .env
+.envrc
 
 # Database
 *.db
@@ -95,3 +96,10 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Azure Developer CLI deployment artifacts
+.azure/
+
+# Virtual environments
+.venv/
+venv/
